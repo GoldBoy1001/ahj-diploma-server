@@ -1,0 +1,25 @@
+{
+	"name": "ahj-diploma-server",
+	"version": "1.0.0",
+	"description": "Chaos Organizer server",
+	"main": "server.js",
+	"scripts": {
+		"start": "forever server.js",
+		"watch": "forever -w server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GoldBoy1001/ahj-diploma-server.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/GoldBoy1001/ahj-diploma-server/issues"
+	},
+	"homepage": "https://github.com/GoldBoy1001/ahj-diploma-server#readme",
+	"dependencies": {
+		"forever": "^4.0.3",
+		"ws": "^8.7.0",
+		"uuid": "^8.3.2"
+	}
+}
